@@ -1,0 +1,22 @@
+# contents of ./pyproject.toml
+
+[tool.setuptools]
+py-modules = []
+
+
+[build-system]
+requires = [
+  "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytest_report_autoname"
+description = "My package description"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Framework :: Flask",
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
